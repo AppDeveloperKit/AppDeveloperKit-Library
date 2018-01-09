@@ -17,7 +17,7 @@
 
 Pod::Spec.new do |s|
 s.name              = 'AppDeveloperKit-Library'
-s.version           = '1.0.5'
+s.version           = '1.0.6'
 s.summary           = 'Library for use with AppDeveloperKit.'
 s.homepage          = 'https://github.com/AppDeveloperKit/AppDeveloperKit-Library'
 

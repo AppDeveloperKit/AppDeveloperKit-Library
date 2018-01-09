@@ -17,7 +17,7 @@ import BrickKit
 // - Setup as a Library component that can be subclassed.
 //
 
-class BrickBaseViewController: BrickViewController {
+open class BrickBaseViewController: BrickViewController {
     
     
     // ==========================================================================
@@ -35,7 +35,7 @@ class BrickBaseViewController: BrickViewController {
     // The stored property json is used to for general configuration of the bricks.
     //
     // Setup a placeholder for json that can be overriden from value in AppDeveloperKit.plist
-    var _json: String = """
+    open var _json: String = """
 {
     "labels": [
         {
@@ -54,7 +54,7 @@ class BrickBaseViewController: BrickViewController {
 }
 """
     
-    var json: String {
+    open var json: String {
         get {
             return _json
         }
@@ -70,9 +70,9 @@ class BrickBaseViewController: BrickViewController {
     // The stored property horizontal is used to configure the direction of scrolling of bricks.
     //
     // Setup a placeholder for horizontal that can be overriden from value in AppDeveloperKit.plist
-    var _horizontal: Bool = false
+    open var _horizontal: Bool = false
     
-    var horizontal: Bool {
+    open var horizontal: Bool {
         get {
             return _horizontal
         }
@@ -84,7 +84,7 @@ class BrickBaseViewController: BrickViewController {
         }
     }
     
-
+    
     
     // MARK: - Instance Properties - Computed
     //
@@ -229,7 +229,7 @@ class BrickBaseViewController: BrickViewController {
     //
     // MARK: - Enumerations
     
-
+    
     // A brick dimension for JSON parsing.
     enum BDimension: String, Codable {
         case ratio
@@ -261,7 +261,7 @@ class BrickBaseViewController: BrickViewController {
         adk_deinit()
     }
     
-    override func viewDidLoad() {
+    override open func viewDidLoad() {
         super.viewDidLoad()
         
         // Setup AppDeveloperKit configuration.
@@ -272,9 +272,9 @@ class BrickBaseViewController: BrickViewController {
     
     
     
-    override func viewWillAppear(_ animated: Bool) {
+    override open func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-
+        
         // Load our bricks.
         setupBricks()
     }
@@ -285,7 +285,7 @@ class BrickBaseViewController: BrickViewController {
     // Type methods
     // ==========================================================================
     //
-
+    
     // Declarations from extensions cannot be overridden yet
     
     
@@ -293,15 +293,15 @@ class BrickBaseViewController: BrickViewController {
     //
     // The function names adk_deinit and adk_init should be considered to be a standard.
     //
-    func adk_deinit() {
+    open func adk_deinit() {
         adk_deinitBrickBaseViewController()
     }
     
-    func adk_init() {
+    open func adk_init() {
         adk_initBrickBaseViewController()
     }
     
-
+    
     
     
     // ==========================================================================
@@ -381,7 +381,7 @@ extension BrickBaseViewController {
         
         
     }
-
+    
     
     
 }
@@ -448,7 +448,7 @@ private extension BrickBaseViewController {
         
     }
     
-
+    
     
 }
 
