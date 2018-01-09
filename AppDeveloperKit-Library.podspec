@@ -38,11 +38,12 @@ s.source = { :git => 'https://github.com/AppDeveloperKit/AppDeveloperKit-Library
 
 
 s.subspec 'Core' do |core|
+core.source_files = 'AppDeveloperKit-Library-Dev/AppDeveloperKit.plist'
 core.dependency 'AppDeveloperKit'
 end
 
 s.subspec 'Brick' do |brick|
-brick.source_files   = 'AppDeveloperKit-Library-Dev/AppDeveloperKit.swift', 'Library/Brick/*.{swift}'
+brick.source_files   = 'Library/Brick/*.{swift}'
 brick.dependency 'BrickKit', '2.4.0'    # 2.4.2 (support for Swift 4) not yet pushed to spec trunk
 brick.dependency 'AppDeveloperKit-Library/Core'
 end
