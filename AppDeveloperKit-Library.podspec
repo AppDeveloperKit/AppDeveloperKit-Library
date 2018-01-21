@@ -17,7 +17,7 @@
 
 Pod::Spec.new do |s|
 s.name              = 'AppDeveloperKit-Library'
-s.version           = '1.0.6'
+s.version           = '1.0.7'
 s.summary           = 'Library for use with AppDeveloperKit.'
 s.homepage          = 'https://github.com/AppDeveloperKit/AppDeveloperKit-Library'
 
@@ -38,12 +38,11 @@ s.source = { :git => 'https://github.com/AppDeveloperKit/AppDeveloperKit-Library
 
 
 s.subspec 'Core' do |core|
-core.source_files = 'AppDeveloperKit-Library-Dev/AppDeveloperKit.plist'
 core.dependency 'AppDeveloperKit'
 end
 
 s.subspec 'Brick' do |brick|
-brick.source_files   = 'Library/Brick/*.{swift}'
+brick.source_files   = 'Library/Brick/*', 'AppDeveloperKit-Library-Dev/AppDeveloperKit/ADK_BrickBaseViewController.*'
 brick.dependency 'BrickKit', '2.4.0'    # 2.4.2 (support for Swift 4) not yet pushed to spec trunk
 brick.dependency 'AppDeveloperKit-Library/Core'
 end
