@@ -23,7 +23,14 @@ extension BrickBaseViewController {
 
        weak var weakSelf: BrickBaseViewController? = self
 
-       adk.registerClass(sender: self, name: "BrickBaseViewController")
+       
+       let object = NSStringFromClass(BrickBaseViewController.self) as NSString
+       let moduleName = object.components(separatedBy: ".").first!
+
+       adk.registerClass(sender: self, name: "BrickBaseViewController", module: moduleName)
+
+
+
 
 
        adk.configJSON(sender: self, name: "json", initComplete: { (data) in

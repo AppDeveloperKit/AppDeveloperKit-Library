@@ -16,7 +16,11 @@
 
 
 Pod::Spec.new do |s|
+
+# Note:  Any dashes in name will need to be switched to underscores when they are entered in the AppDeveloperKit Mac app UI.
+#        Cocoapods will do this automatically for the pod installation.
 s.name              = 'AppDeveloperKit-Library'
+
 s.version           = '1.0.7'
 s.summary           = 'Library for use with AppDeveloperKit.'
 s.homepage          = 'https://github.com/AppDeveloperKit/AppDeveloperKit-Library'
