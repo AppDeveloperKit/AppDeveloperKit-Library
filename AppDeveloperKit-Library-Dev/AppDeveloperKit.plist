@@ -10,13 +10,13 @@
 			<key>autopublish</key>
 			<true/>
 			<key>description</key>
-			<string></string>
+			<string>Example library component</string>
 			<key>identifier</key>
 			<string>79F40411-558A-4435-8DBE-6862CA782959</string>
 			<key>libraryComponent</key>
 			<true/>
 			<key>modified</key>
-			<date>2018-01-26T21:51:11Z</date>
+			<date>2018-01-31T16:42:38Z</date>
 			<key>moduleName</key>
 			<string>AppDeveloperKit_Library</string>
 			<key>moduleVersion</key>
@@ -91,13 +91,13 @@
 			<key>autopublish</key>
 			<true/>
 			<key>description</key>
-			<string></string>
+			<string>Example test code</string>
 			<key>identifier</key>
 			<string>29303D9F-2CDD-49FE-BDD0-4211C7AE01CB</string>
 			<key>libraryComponent</key>
 			<false/>
 			<key>modified</key>
-			<date>2018-01-09T19:28:55Z</date>
+			<date>2018-01-31T16:43:00Z</date>
 			<key>moduleName</key>
 			<string></string>
 			<key>moduleVersion</key>
@@ -178,7 +178,7 @@
 		<key>libraryEnable</key>
 		<true/>
 		<key>modified</key>
-		<date>2018-01-26T21:51:11Z</date>
+		<date>2018-01-31T16:43:00Z</date>
 		<key>moduleName</key>
 		<string>AppDeveloperKit_Library</string>
 		<key>moduleVersion</key>

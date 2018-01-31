@@ -10,13 +10,13 @@
 			<key>autopublish</key>
 			<true/>
 			<key>description</key>
-			<string>.</string>
+			<string>Example library component</string>
 			<key>identifier</key>
 			<string>79F40411-558A-4435-8DBE-6862CA782959</string>
 			<key>libraryComponent</key>
 			<true/>
 			<key>modified</key>
-			<date>2018-01-30T14:22:51Z</date>
+			<date>2018-01-31T16:42:38Z</date>
 			<key>moduleName</key>
 			<string>AppDeveloperKit_Library</string>
 			<key>moduleVersion</key>
@@ -93,11 +93,11 @@
 		<key>bundleId</key>
 		<string>com.scarter.AppDeveloperKit-Library-Dev</string>
 		<key>description</key>
-		<string>.</string>
+		<string></string>
 		<key>libraryEnable</key>
 		<true/>
 		<key>modified</key>
-		<date>2018-01-30T14:22:51Z</date>
+		<date>2018-01-31T16:43:00Z</date>
 		<key>moduleName</key>
 		<string>AppDeveloperKit_Library</string>
 		<key>moduleVersion</key>
