@@ -51,7 +51,9 @@ end
 
 
 target 'AppDeveloperKit-Library-Dev' do
-    pod 'AppDeveloperKit'
+    pod 'AppDeveloperKit',  :path => '/Users/scarter/Dropbox/DeveloperXcode/FastStart_iOS/FastStart'
+    
+    #pod 'AppDeveloperKit'
     pod 'BrickKit', '2.4.0'  # 2.4.2 (support for Swift 4) not yet pushed to spec trunk
 end
 

@@ -235,7 +235,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-AppDeveloperKit-Library-Dev/Pods-AppDeveloperKit-Library-Dev-frameworks.sh",
-				"${PODS_ROOT}/AppDeveloperKit/AppDeveloperKit.framework",
+				"${BUILT_PRODUCTS_DIR}/AppDeveloperKit/AppDeveloperKit.framework",
 				"${PODS_ROOT}/AppDeveloperKit-Bonjour/AppDeveloperKit_Bonjour.framework",
 				"${PODS_ROOT}/AppDeveloperKit-Utils/AppDeveloperKit_Utils.framework",
 				"${BUILT_PRODUCTS_DIR}/BrickKit/BrickKit.framework",

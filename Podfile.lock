@@ -1,7 +1,7 @@
 PODS:
-  - AppDeveloperKit (1.0.5):
-    - AppDeveloperKit-Bonjour (= 1.0.5)
-    - AppDeveloperKit-Utils (= 1.0.6)
+  - AppDeveloperKit (0.0.4):
+    - AppDeveloperKit-Bonjour
+    - AppDeveloperKit-Utils
   - AppDeveloperKit-Bonjour (1.0.5):
     - DTBonjour (= 1.1.3)
   - AppDeveloperKit-Utils (1.0.6)
@@ -9,16 +9,20 @@ PODS:
   - DTBonjour (1.1.3)
 
 DEPENDENCIES:
-  - AppDeveloperKit
+  - AppDeveloperKit (from `/Users/scarter/Dropbox/DeveloperXcode/FastStart_iOS/FastStart`)
   - BrickKit (= 2.4.0)
 
+EXTERNAL SOURCES:
+  AppDeveloperKit:
+    :path: /Users/scarter/Dropbox/DeveloperXcode/FastStart_iOS/FastStart
+
 SPEC CHECKSUMS:
-  AppDeveloperKit: adcb872b621e57f5f23ef822060cde00251aa0d5
+  AppDeveloperKit: 212c4605bfca3674dc149027c51a6850f50c0b12
   AppDeveloperKit-Bonjour: 79193a00eab942f027483e4f5342c8151940227e
   AppDeveloperKit-Utils: b2c1529092852c4afd51c786a54fa083b8c1908d
   BrickKit: b30a96e97ae4ebbc524469f6dc274a5936018a11
   DTBonjour: 5883d2f0459903096c6784f88c603c410002bbca
 
-PODFILE CHECKSUM: dad4fbf458be436f10668cd9b072fd564e0835d8
+PODFILE CHECKSUM: 9548e40ea8b2c58b1c01feff4ffb827d531a84ba
 
 COCOAPODS: 1.3.1
