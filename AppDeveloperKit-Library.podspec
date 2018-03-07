@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
 #        Cocoapods will do this automatically for the pod installation.
 s.name              = 'AppDeveloperKit-Library'
 
-s.version           = '1.0.10'
+s.version           = '1.0.11'
 s.summary           = 'Library for use with AppDeveloperKit.'
 s.homepage          = 'https://github.com/AppDeveloperKit/AppDeveloperKit-Library'
 
