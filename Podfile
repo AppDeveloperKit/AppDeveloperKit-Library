@@ -9,8 +9,8 @@ source 'https://github.com/CocoaPods/Specs.git'
 # Reference:  https://github.com/CocoaPods/CocoaPods/issues/6791
 # All pods not specified use setting set by Xcode/CocoaPods.
 #
-swift_32 = ['BrickKit']
-swift4 = ['']
+swift_32 = ['']
+swift4 = ['BrickKit']
 
 post_install do |installer|
     installer.pods_project.targets.each do |target|
@@ -52,6 +52,6 @@ end
 
 target 'AppDeveloperKit-Library-Dev' do
     pod 'AppDeveloperKit'
-    pod 'BrickKit', '2.4.0'  # 2.4.2 (support for Swift 4) not yet pushed to spec trunk
+    pod 'BrickKit', '2.4.3'
 end
 
